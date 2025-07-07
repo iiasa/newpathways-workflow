@@ -1,13 +1,13 @@
 - NRF-*:
     model: GCAM-USA-CGS  # version number to be added
-    meta-indicators:
+    meta_indicators:
       Project: NRF
       Scientific Reference (Citation): Zhao et al. (2024)
       Scientific Reference (DOI): 10.1038/s44168-024-00145-x
       Work Package: 5.1 (National Stocktake)
 - GIR-*:
     model: [ AIMHub-Korea, GCAM-KAIST, MESSAGEix-KOR ] # version numbers to be added
-    meta-indicators:
+    meta_indicators:
       Project: GIR
       Scientific Reference (Citation): Cho et al. (2025)
       Scientific Reference (DOI): 10.1016/j.egycc.2025.100193
