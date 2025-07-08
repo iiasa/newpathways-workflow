@@ -4,11 +4,29 @@ Copyright 2025 IIASA and the NEWPATHWAYS consortium
 
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-## Overview
-
 <img src="images/newpathways_logo.svg" height="80" align="right" alt="SPARCCLE Project Logo">
 
+## Background
+
 The NEWPATHWAYS project aims to inform solutions to strengthen climate action by developing and analysing next-generation Paris-aligned global and national low-emission transformation pathways for the Global Stocktake in 2028.
+
+## Overview
+
+This repository contains the workflow and configuration for the EU project NEWPATHWAYS.
+
+> [!TIP]
+> For *users not comfortable working with GitHub repositories and yaml files*,
+> the definitions for this project are available for download as an xlsx spreadsheet
+> at [https://files.ece.iiasa.ac.at/ssp-submission/ssp-submission-template.xlsx](https://files.ece.iiasa.ac.at/newpathways/newpathways-template.xlsx).
+
+### Project nomenclature and model registration
+
+This projects uses the variables region definitions from the
+https://github.com/iamconsortium/common-definitions project.
+
+To register a model, add the native-region definition and mappings
+to common-definitions and then import them for this project by adding 
+the region-hierarchy and the model name(s) to the file `nomenclature.yaml`.
 
 ## Funding acknowledgement
 
