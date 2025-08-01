@@ -9,6 +9,8 @@
     model: [ AIMHub-Korea, GCAM-KAIST, MESSAGEix-KOR ] # version numbers to be added
     meta_indicators:
       Project: GIR
+      Project_Text: This project was supported by the Greenhouse Gas Inventory
+        and Research Center of Korea (GIR).
       Scientific Reference (Citation): Cho et al. (2025)
       Scientific Reference (DOI): 10.1016/j.egycc.2025.100193
       Work Package: 5.1 (National Stocktake)
