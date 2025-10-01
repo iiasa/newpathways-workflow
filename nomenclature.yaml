@@ -16,6 +16,7 @@ definitions:
         - hierarchy: R9
         - hierarchy: R10
         - hierarchy: G20 Members
+        - hierarchy: Regional Organizations
 #         - hierarchy: .. add model hierarchy here
 #mappings:
 #  repository:
