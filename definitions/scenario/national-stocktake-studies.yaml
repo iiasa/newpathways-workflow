@@ -13,7 +13,7 @@
       Scientific Reference (DOI): not available
       Work Package: 5.1 (National Stocktake)
 - ELEVATE-*:
-    model: [ BLUES 2.0 ]
+    model: [ BLUES 2.0, GCAM-KSA V2.0 ]
     meta_indicators:
       Project: ELEVATE [Horizon Europe]
       Scientific Reference (Citation): unpublished
