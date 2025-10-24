@@ -22,5 +22,48 @@
     meta_indicators:
       Project: AIT NPM
       Scientific Reference (Citation): unpublished
-      Scientific Reference (DOI): unpublished
+      Scientific Reference (DOI): n/a
+      Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/9 (partial)
+- India-IIMA-*:
+    model: [ AIM/Enduse India 3.3 ]
+    meta_indicators:
+      Project: India-ESN
+      Scientific Reference (Citation): Garg et al. 2024
+      Scientific Reference (DOI): n/a
+      Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/11
+- India-GCAM-CEEW-*:
+    model: [ GCAM-CEEW 5.2 ]
+    meta_indicators:
+      Project: India-GCAM-CEEW
+      Scientific Reference (Citation): Das et al. 2025
+      Scientific Reference (DOI): 10.1016/j.egycc.2025.100192
+      Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/13
+- IMED_China V1.0-*:
+    model: [ IMED-China V1.0 ]
+    meta_indicators:
+      Project: CHIMERA, 4S, WEF
+      Scientific Reference (Citation): Liu et al. 2022
+      Scientific Reference (DOI): 10.1016/j.oneear.2022.01.007
+      Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/14
+- KMIP23-*:
+    model: [ AIM-Hub Korea 2, MESSAGEix-KOR 1, GCAM KAIST 2.0.2 ]
+    meta_indicators:
+      Project: KMIP23 [GIR of Korea]
+      Scientific Reference (Citation): Cho, Cheolhung, et al. 2025
+      Scientific Reference (DOI): 10.1016/j.egycc.2025.100193
+      Work Package: 5.1 (National Stocktake)
+- KMIP24-*:
+    model: [ AIM-Hub Korea 2, MESSAGEix-KOR 1, GCAM KAIST 7 ]
+    meta_indicators:
+      Project: KMIP24 [GIR of Korea]
+      Scientific Reference (Citation): unplublished
+      Scientific Reference (DOI): n/a
       Work Package: 5.1 (National Stocktake)
