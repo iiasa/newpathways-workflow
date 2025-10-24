@@ -1,0 +1,26 @@
+# https://github.com/iiasa/newpathways-workflow/issues/4
+- AIT-IPM-*:
+    model: [ AIT-Indonesia-TIMES-Power V1.0 ]
+    meta_indicators:
+      Project: AIT IPM
+      Scientific Reference (Citation): Kamandika and Dhakal et al. 2023
+      Scientific Reference (DOI): 10.1007/s43979-023-00066-4
+      Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/6
+- AIT-TAM-*:
+    model: [ AIT-Thailand-MLR-Aviation V1.0 ]
+    meta_indicators:
+      Project: AIT TAM
+      Scientific Reference (Citation): Champeecharoensuk et al. 2023
+      Scientific Reference (DOI): 10.3390/en16207199
+      Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/8
+- AIT-PPM-*:
+    model: [ AIT-Philippines-TIMES-Power V1.0 ]
+    meta_indicators:
+      Project: AIT NPM
+      Scientific Reference (Citation): unpublished
+      Scientific Reference (DOI): unpublished
+      Work Package: 5.1 (National Stocktake)
