@@ -1,0 +1,27 @@
+# https://github.com/iiasa/newpathways-workflow/issues/9
+# https://github.com/iiasa/newpathways-workflow/issues/10
+- COMMITTED-*:
+    model: [ AIM/Enduse India 3.3, AIM/Hub-Vietnam 2.2 ]
+    meta_indicators:
+      Project: COMMITTED
+      Scientific Reference (Citation): unpublished
+      Scientific Reference (DOI): n/a
+      Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/9
+- ENGAGE-*:
+    model: [ AIM/Enduse India 3.3 ]
+    meta_indicators:
+      Project: ENGAGE
+      Scientific Reference (Citation): unpublished
+      Scientific Reference (DOI): n/a
+      Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/12
+- ELEVATE-*:
+    model: [ BLUES 2.0 ]
+    meta_indicators:
+      Project: ELEVATE
+      Scientific Reference (Citation): unpublished
+      Scientific Reference (DOI): n/a
+      Work Package: 5.1 (National Stocktake)
