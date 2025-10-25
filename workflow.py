@@ -3,10 +3,12 @@ import re
 
 import pyam
 from pyam.utils import escape_regexp
-from nomenclature import DataStructureDefinition, RegionProcessor, process, CodeList
-
+from nomenclature import DataStructureDefinition, process, CodeList
+from nomenclature.processor import RegionProcessor, DataValidator
 
 here = Path(__file__).absolute().parent
+
+VALIDATION_ARGS = ["upper_bound", "lower_bound", "value", "rtol", "atol", "range"]
 
 
 def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
@@ -34,8 +36,30 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
         for key, value in code.extra_attributes["meta_indicators"].items():
             df.meta.loc[rows, key] = value
 
-    # Run the validation and region-processing
-    processor = RegionProcessor.from_directory(path=here / "mappings", dsd=definition)
+    # Prepare a list of validation-criteria for a DataValidator from definitions
+    validation_list = list()
+    for name, variable in definition.variable.items():
+        if any([i in VALIDATION_ARGS for i in variable.extra_attributes]):
+            validation_list.append(
+                dict(
+                    variable=name,
+                    validation=[
+                        dict(
+                            [
+                                (key, value)
+                                for key, value in variable.extra_attributes.items()
+                                if key in VALIDATION_ARGS
+                            ]
+                        )
+                    ],
+                )
+            )
+
+    # Run the region-processing and data validation
+    processor = [
+        DataValidator(criteria_items=validation_list, file=definition.project_folder),
+        RegionProcessor.from_directory(path=here / "mappings", dsd=definition),
+    ]
     return process(df, definition, processor=processor)
 
 
