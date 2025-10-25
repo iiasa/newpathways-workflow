@@ -77,10 +77,10 @@
       Scientific Reference (DOI): 10.1016/j.enpol.2022.113098
       Work Package: 5.1 (National Stocktake)
 - AIT-NPM-End-Use-*:
-    model: [ AIT-Nepal-TIMES-Power V1.0 ]
+    model: [ AIT-Nepal-TIMESxMAED-Power V1.0 ]
     meta_indicators:
       Project: AIT NPM
       Scientific Reference (Citation): Aryal and Dhakal et al. 2022
-      Scientific Reference (DOI): 10.1016/j.enpol.2022.113098
+      Scientific Reference (DOI): 10.1016/j.renene.2023.119467
       Work Package: 5.1 (National Stocktake)
 
