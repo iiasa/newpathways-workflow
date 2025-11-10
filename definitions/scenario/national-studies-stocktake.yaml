@@ -84,3 +84,18 @@
       Scientific Reference (DOI): 10.1016/j.renene.2023.119467
       Work Package: 5.1 (National Stocktake)
 
+# https://github.com/iiasa/newpathways-workflow/issues/7
+- AIT-MPM-Study-1-*:
+    model: [ AIT-Mongolia-MAED-Power V1.0 ]
+    meta_indicators:
+      Project: AIT MPM
+      Scientific Reference (Citation): Aryal and Dhakal et al. 2022
+      Scientific Reference (DOI): 10.3390/en16176291
+      Work Package: 5.1 (National Stocktake)
+- AIT-MPM-Study-2-*:
+    model: [ AIT-Mongolia-TIMESxUB-Power V1.0 ]
+    meta_indicators:
+      Project: AIT MPM
+      Scientific Reference (Citation): unpublished
+      Scientific Reference (DOI): n/a
+      Work Package: 5.1 (National Stocktake)
