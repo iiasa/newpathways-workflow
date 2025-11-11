@@ -18,8 +18,9 @@
       Work Package: 5.1 (National Stocktake)
 
 # https://github.com/iiasa/newpathways-workflow/issues/12
+# https://github.com/iiasa/newpathways-workflow/issues/22
 - ELEVATE-*:
-    model: [ BLUES 2.0 ]
+    model: [ BLUES 2.0, GCAM-KSA V2.0 ]
     meta_indicators:
       Project: ELEVATE
       Scientific Reference (Citation): unpublished
