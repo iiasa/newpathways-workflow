@@ -99,3 +99,12 @@
       Scientific Reference (Citation): unpublished
       Scientific Reference (DOI): n/a
       Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/22 (partial)
+- CAMP-*:
+    model: [ GCAM-KSA V1.0 ]
+    meta_indicators:
+      Project: KAPSARC CAMP
+      Scientific Reference (Citation): Hejazi et al. 2024
+      Scientific Reference (DOI): 10.1016/j.esr.2024.101537
+      Work Package: 5.1 (National Stocktake)
