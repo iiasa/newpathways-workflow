@@ -26,12 +26,3 @@
       Scientific Reference (Citation): unpublished
       Scientific Reference (DOI): n/a
       Work Package: 5.1 (National Stocktake)
-
-# https://github.com/iiasa/newpathways-workflow/issues/21
-- CHIMERA-*:
-    model: [ China TIMES 2.0 ]
-    meta_indicators:
-      Project: CHIMERA, 4S, WEF
-      Scientific Reference (Citation): Zhang et al. 2024
-      Scientific Reference (DOI): https://doi.org/10.1038/s41893-024-01400-z
-      Work Package: 5.1 (National Stocktake)
