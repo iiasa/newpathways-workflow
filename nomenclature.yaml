@@ -18,9 +18,9 @@ definitions:
         - hierarchy: R10
         - hierarchy: G20 Members
         - hierarchy: Regional Organizations
-#         - hierarchy: .. add model hierarchy here
-#mappings:
-#  repository:
-#    name: common-definitions
-#    include:
-#      - .. add model name here
+        - hierarchy: GCAM-KSA v2.0
+mappings:
+  repository:
+    name: common-definitions
+    include:
+      - GCAM-KSA v2.0
