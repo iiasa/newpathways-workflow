@@ -117,3 +117,12 @@
       Scientific Reference (Citation): Zhang et al. 2024
       Scientific Reference (DOI): 10.1038/s41893-024-01400-z
       Work Package: 5.1 (National Stocktake)
+
+# https://github.com/iiasa/newpathways-workflow/issues/27
+- CGS-All-In-*:
+    model: [ GCAM-USA-CGS V1.0 ]
+    meta_indicators:
+      Project: CGS-AllIn
+      Scientific Reference (Citation): Zhao et al. 2024
+      Scientific Reference (DOI): 10.1038/s44168-024-00145-x
+      Work Package: 5.1 (National Stocktake)
