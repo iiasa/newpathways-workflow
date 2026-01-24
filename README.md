@@ -35,7 +35,11 @@ the region-hierarchy and the model name(s) to the file `nomenclature.yaml`.
 In this project, we develop a new configuration to track publications and project information for scenarios
 that are compiled as part of the stocktake of already-published studies.
 
-This information should be added to one of the yaml files in the following format:
+This information will be added to the scenarios upon submission and can be used for filtering and referencing
+in the project-internal and public Scenario Explorer instances.
+
+The relevant configuration should be added to one of the yaml files
+in the [definitions/scenario](definitions/scenario) in the following format:
 
 ```yaml
 - <Project-Prefix>-*:
