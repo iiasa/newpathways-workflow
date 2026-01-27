@@ -30,6 +30,34 @@ To register a model, add the native-region definition and mappings
 to common-definitions and then import them for this project by adding 
 the region-hierarchy and the model name(s) to the file `nomenclature.yaml`.
 
+### Project and publication tags
+
+In this project, we develop a new configuration to track publications and project information for scenarios
+that are compiled as part of the stocktake of already-published studies.
+
+This information will be added to the scenarios upon submission and can be used for filtering and referencing
+in the project-internal and public Scenario Explorer instances.
+
+The relevant configuration should be added to one of the yaml files
+in the [definitions/scenario](definitions/scenario) in the following format:
+
+```yaml
+- <Project-Prefix>-*:
+    model: [ <Model Name including Version Number> ]
+    meta_indicators:
+      Project: <Project Name>
+      Scientific Reference (Citation): <Author> et al. <yyyy>
+      Scientific Reference (DOI): 10.1234/abcdefg
+      Work Package: 5.1 (National Stocktake)
+```
+
+The **Project-Prefix** must be unique. It should include (a short version of) the project anme and a study-identifier
+if scenarios from multiple studies related to this project will be submitted.
+
+The **Model Name including Version Number** should include a version number using semantic versioning, e.g.: `China TIMES 2.0`.
+
+The **Project Name>** should include the funding agency if possible, e.g.: `ENGAGE [Horizon Europe]`.
+
 ## Funding acknowledgement
 
 <img src="images/eu_logo.jpg" width="80" height="54" align="left" alt="EU logo">
