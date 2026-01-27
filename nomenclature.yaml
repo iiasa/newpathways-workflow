@@ -16,9 +16,9 @@ definitions:
         tier: [ 1, 2 ]
       - name: Final Energy*
         tier: 1
-      - GDP*
+      - name: GDP*
         tier: 1
-      - Price*
+      - name: Price*
         tier: 1
   region:
     repository:
