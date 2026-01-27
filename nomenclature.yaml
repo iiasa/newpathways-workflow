@@ -1,26 +1,45 @@
 dimensions:
-  - variable
-  - region
-  - scenario
-repositories:
-  common-definitions:
-    url: https://github.com/IAMconsortium/common-definitions.git/
-definitions:
-  variable:
-    repository: common-definitions
-  region:
+    - variable
+    - region
+    - scenario
+  repositories:
+    common-definitions:
+      url: https://github.com/IAMconsortium/common-definitions.git/
+  definitions:
+    variable:
+      repository: 
+        name: common-definitions
+        include:
+          - name: Primary Energy*
+            depth: [ 1, 2 ]
+          - name: Secondary Energy*
+            tier: [ 1, 2 ]
+          - name: Final Energy*
+            tier: 1
+          - name: GDP*
+            tier: 1
+          - name: Price|Primary Energy*
+            tier: 1
+          - name: Price|Secondary Energy*
+            tier: 1
+          - name: Price|Final Energy*
+            tier: 1
+    region:
+      repository:
+        name: common-definitions
+        include:
+          - hierarchy: common
+          - hierarchy: R5
+          - hierarchy: R9
+          - hierarchy: R10
+          - hierarchy: G20 Members
+          - hierarchy: Regional Organizations
+          - hierarchy: GCAM-KSA v2.0
+          - hierarchy: GEM-E3 V2023
+  mappings:
     repository:
       name: common-definitions
       include:
-        - hierarchy: common
-        - hierarchy: R5
-        - hierarchy: R9
-        - hierarchy: R10
-        - hierarchy: G20 Members
-        - hierarchy: Regional Organizations
-        - hierarchy: GCAM-KSA v2.0
-mappings:
-  repository:
-    name: common-definitions
-    include:
-      - GCAM-KSA v2.0
+        - GCAM-KSA v2.0
+        - GEM-E3 V2023
+  
