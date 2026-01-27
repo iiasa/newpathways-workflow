@@ -1,33 +1,33 @@
 # gross imports
-- Trade|Gross Imports|Primary Energy|Biomass {Energy Trade Type}:
+- Trade|Primary Energy|Biomass {Energy Trade Type}|Gross Imports:
     description: Gross imports of solid unprocessed biomass {Energy Trade Type}
     unit: "{Energy Trade Type}"
-- Trade|Gross Imports|Primary Energy|{Primary Fossil Fuel} {Energy Trade Type}:
+- Trade|Primary Energy|{Primary Fossil Fuel} {Energy Trade Type}|Gross Imports:
     description: Gross imports of {Primary Fossil Fuel} {Energy Trade Type}
     unit: "{Energy Trade Type}"
-- Trade|Gross Imports|Secondary Energy|Electricity {Energy Trade Type}:
+- Trade|Secondary Energy|Electricity {Energy Trade Type}|Gross Imports:
     description: Gross imports of electricity {Energy Trade Type}
     unit: "{Energy Trade Type}"
-- Trade|Gross Imports|Secondary Energy|Hydrogen {Energy Trade Type}:
+- Trade|Secondary Energy|Hydrogen {Energy Trade Type}|Gross Imports:
     description: Gross imports of hydrogen {Energy Trade Type}
     unit: "{Energy Trade Type}"
-- Trade|Gross Imports|Secondary Energy|Liquids {Energy Trade Type}:
+- Trade|Secondary Energy|Liquids {Energy Trade Type}|Gross Imports:
     description: Gross imports of liquids {Energy Trade Type}
     unit: "{Energy Trade Type}"
 
 # gross exports
-- Trade|Gross Exports|Primary Energy|Biomass {Energy Trade Type}:
+- Trade|Primary Energy|Biomass {Energy Trade Type}|Gross Exports:
     description: Gross exports of solid unprocessed biomass {Energy Trade Type}
     unit: "{Energy Trade Type}"
-- Trade|Gross Exports|Primary Energy|{Primary Fossil Fuel} {Energy Trade Type}:
+- Trade|Primary Energy|{Primary Fossil Fuel} {Energy Trade Type}|Gross Exports:
     description: Gross exports of {Primary Fossil Fuel} {Energy Trade Type}
     unit: "{Energy Trade Type}"
-- Trade|Gross Exports|Secondary Energy|Electricity {Energy Trade Type}:
+- Trade|Secondary Energy|Electricity {Energy Trade Type}|Gross Exports:
     description: Gross exports of electricity {Energy Trade Type}
     unit: "{Energy Trade Type}"
-- Trade|Gross Exports|Secondary Energy|Hydrogen {Energy Trade Type}:
+- Trade|Secondary Energy|Hydrogen {Energy Trade Type}|Gross Exports:
     description: Gross exports of hydrogen {Energy Trade Type}
     unit: "{Energy Trade Type}"
-- Trade|Gross Exports|Secondary Energy|Liquids {Energy Trade Type}:
+- Trade|Secondary Energy|Liquids {Energy Trade Type}|Gross Exports:
     description: Gross exports of liquids {Energy Trade Type}
     unit: "{Energy Trade Type}"
