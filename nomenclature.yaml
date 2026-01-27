@@ -20,11 +20,9 @@ definitions:
         - hierarchy: Regional Organizations
         - hierarchy: GCAM-KSA v2.0
         - hierarchy: GEM-E3 V2023
-        - hierarchy: MESSAGEix-GLOBIOM 2.1-R12
 mappings:
   repository:
     name: common-definitions
     include:
       - GCAM-KSA v2.0
       - GEM-E3 V2023
-      - MESSAGEix-GLOBIOM 2.1-R12
