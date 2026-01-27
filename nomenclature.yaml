@@ -7,7 +7,23 @@ repositories:
     url: https://github.com/IAMconsortium/common-definitions.git/
 definitions:
   variable:
-    repository: common-definitions
+    repository: 
+      name: common-definitions
+      include:
+        - name: Primary Energy*
+          depth: [ 1, 2 ]
+        - name: Secondary Energy*
+          tier: [ 1, 2 ]
+        - name: Final Energy*
+          tier: 1
+        - name: GDP*
+          tier: 1
+        - name: Price|Primary Energy*
+          tier: 1
+        - name: Price|Secondary Energy*
+          tier: 1
+        - name: Price|Final Energy*
+          tier: 1
   region:
     repository:
       name: common-definitions
