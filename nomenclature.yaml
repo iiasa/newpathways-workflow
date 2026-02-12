@@ -27,4 +27,5 @@ mappings:
     include:
       - GCAM-KSA v2.0
       - GEM-E3 V2023
-      - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
+#     this mapping file was added explicitly to this repo to include trade connections
+#     - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
