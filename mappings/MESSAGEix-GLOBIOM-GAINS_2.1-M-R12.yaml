@@ -1,214 +1,223 @@
-common_regions:
-- World:
-  - R12_AFR
-  - R12_RCPA
-  - R12_CHN
-  - R12_EEU
-  - R12_FSU
-  - R12_LAM
-  - R12_MEA
-  - R12_NAM
-  - R12_PAO
-  - R12_PAS
-  - R12_SAS
-  - R12_WEU
-- Asia (R5):
-  - R12_SAS
-  - R12_PAS
-  - R12_RCPA
-  - R12_CHN
-- Latin America (R5):
-  - R12_LAM
-- Middle East & Africa (R5):
-  - R12_MEA
-  - R12_AFR
-- OECD & EU (R5):
-  - R12_WEU
-  - R12_PAO
-  - R12_NAM
-  - R12_EEU
-- Reforming Economies (R5):
-  - R12_FSU
-- Africa (R10):
-  - R12_AFR
-- China+ (R10):
-  - R12_CHN
-  - R12_RCPA
-- Europe (R10):
-  - R12_EEU
-  - R12_WEU
-- India+ (R10):
-  - R12_SAS
-- Latin America (R10):
-  - R12_LAM
-- Middle East (R10):
-  - R12_MEA
-- North America (R10):
-  - R12_NAM
-- Pacific OECD (R10):
-  - R12_PAO
-- Reforming Economies (R10):
-  - R12_FSU
-- Rest of Asia (R10):
-  - R12_PAS
-- China:
-  - R12_CHN
-- European Union and United Kingdom:
-  - R12_EEU
-  - R12_WEU
-- India:
-  - R12_SAS
-- Japan:
-  - R12_PAO
-- Russian Federation:
-  - R12_FSU
-- United States:
-  - R12_NAM
 model:
-- MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
+  - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
+
 native_regions:
-- R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa
-- R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia
-- R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China
-- R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe
-- R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union
-- R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean
-- R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa
-- R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America
-- R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD
-- R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia
-- R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia
-- R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe
+  - R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa
+  - R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia
+  - R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China
+  - R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe
+  - R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union
+  - R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean
+  - R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa
+  - R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America
+  - R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD
+  - R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia
+  - R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia
+  - R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe
+
 # Mapping for trade connections
-- R12_AFR>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Rest of Centrally Planned Asia
-- R12_AFR>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>China
-- R12_AFR>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Eastern Europe
-- R12_AFR>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Former Soviet Union
-- R12_AFR>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Latin America and the Caribbean
-- R12_AFR>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Middle East and North Africa
-- R12_AFR>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>North America
-- R12_AFR>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Pacific OECD
-- R12_AFR>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Other Pacific Asia
-- R12_AFR>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>South Asia
-- R12_AFR>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Western Europe
-- R12_RCPA>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Sub-Saharan Africa
-- R12_RCPA>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>China
-- R12_RCPA>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Eastern Europe
-- R12_RCPA>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Former Soviet Union
-- R12_RCPA>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Latin America and the Caribbean
-- R12_RCPA>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Middle East and North Africa
-- R12_RCPA>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>North America
-- R12_RCPA>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Pacific OECD
-- R12_RCPA>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Other Pacific Asia
-- R12_RCPA>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>South Asia
-- R12_RCPA>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Western Europe
-- R12_CHN>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Sub-Saharan Africa
-- R12_CHN>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Rest of Centrally Planned Asia
-- R12_CHN>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Eastern Europe
-- R12_CHN>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Former Soviet Union
-- R12_CHN>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Latin America and the Caribbean
-- R12_CHN>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Middle East and North Africa
-- R12_CHN>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>North America
-- R12_CHN>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Pacific OECD
-- R12_CHN>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Other Pacific Asia
-- R12_CHN>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>South Asia
-- R12_CHN>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Western Europe
-- R12_EEU>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Sub-Saharan Africa
-- R12_EEU>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Rest of Centrally Planned Asia
-- R12_EEU>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>China
-- R12_EEU>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Former Soviet Union
-- R12_EEU>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Latin America and the Caribbean
-- R12_EEU>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Middle East and North Africa
-- R12_EEU>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>North America
-- R12_EEU>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Pacific OECD
-- R12_EEU>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Other Pacific Asia
-- R12_EEU>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>South Asia
-- R12_EEU>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Western Europe
-- R12_FSU>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Sub-Saharan Africa
-- R12_FSU>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Rest of Centrally Planned Asia
-- R12_FSU>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>China
-- R12_FSU>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Eastern Europe
-- R12_FSU>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Latin America and the Caribbean
-- R12_FSU>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Middle East and North Africa
-- R12_FSU>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>North America
-- R12_FSU>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Pacific OECD
-- R12_FSU>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Other Pacific Asia
-- R12_FSU>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>South Asia
-- R12_FSU>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Western Europe
-- R12_LAM>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Sub-Saharan Africa
-- R12_LAM>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Rest of Centrally Planned Asia
-- R12_LAM>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>China
-- R12_LAM>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Eastern Europe
-- R12_LAM>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Former Soviet Union
-- R12_LAM>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Middle East and North Africa
-- R12_LAM>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>North America
-- R12_LAM>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Pacific OECD
-- R12_LAM>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Other Pacific Asia
-- R12_LAM>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>South Asia
-- R12_LAM>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Western Europe
-- R12_MEA>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Sub-Saharan Africa
-- R12_MEA>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Rest of Centrally Planned Asia
-- R12_MEA>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>China
-- R12_MEA>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Eastern Europe
-- R12_MEA>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Former Soviet Union
-- R12_MEA>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Latin America and the Caribbean
-- R12_MEA>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>North America
-- R12_MEA>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Pacific OECD
-- R12_MEA>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Other Pacific Asia
-- R12_MEA>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>South Asia
-- R12_MEA>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Western Europe
-- R12_NAM>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Sub-Saharan Africa
-- R12_NAM>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Rest of Centrally Planned Asia
-- R12_NAM>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>China
-- R12_NAM>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Eastern Europe
-- R12_NAM>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Former Soviet Union
-- R12_NAM>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Latin America and the Caribbean
-- R12_NAM>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Middle East and North Africa
-- R12_NAM>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Pacific OECD
-- R12_NAM>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Other Pacific Asia
-- R12_NAM>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>South Asia
-- R12_NAM>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Western Europe
-- R12_PAO>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Sub-Saharan Africa
-- R12_PAO>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Rest of Centrally Planned Asia
-- R12_PAO>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>China
-- R12_PAO>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Eastern Europe
-- R12_PAO>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Former Soviet Union
-- R12_PAO>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Latin America and the Caribbean
-- R12_PAO>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Middle East and North Africa
-- R12_PAO>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>North America
-- R12_PAO>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Other Pacific Asia
-- R12_PAO>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>South Asia
-- R12_PAO>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Western Europe
-- R12_PAS>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Sub-Saharan Africa
-- R12_PAS>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Rest of Centrally Planned Asia
-- R12_PAS>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>China
-- R12_PAS>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Eastern Europe
-- R12_PAS>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Former Soviet Union
-- R12_PAS>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Latin America and the Caribbean
-- R12_PAS>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Middle East and North Africa
-- R12_PAS>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>North America
-- R12_PAS>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Pacific OECD
-- R12_PAS>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>South Asia
-- R12_PAS>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Western Europe
-- R12_SAS>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Sub-Saharan Africa
-- R12_SAS>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Rest of Centrally Planned Asia
-- R12_SAS>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>China
-- R12_SAS>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Eastern Europe
-- R12_SAS>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Former Soviet Union
-- R12_SAS>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Latin America and the Caribbean
-- R12_SAS>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Middle East and North Africa
-- R12_SAS>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>North America
-- R12_SAS>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Pacific OECD
-- R12_SAS>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Other Pacific Asia
-- R12_SAS>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Western Europe
-- R12_WEU>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Sub-Saharan Africa
-- R12_WEU>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Rest of Centrally Planned Asia
-- R12_WEU>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>China
-- R12_WEU>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Eastern Europe
-- R12_WEU>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Former Soviet Union
-- R12_WEU>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Latin America and the Caribbean
-- R12_WEU>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Middle East and North Africa
-- R12_WEU>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>North America
-- R12_WEU>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Pacific OECD
-- R12_WEU>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Other Pacific Asia
-- R12_WEU>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>South Asia
+  - R12_AFR>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Rest of Centrally Planned Asia
+  - R12_AFR>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>China
+  - R12_AFR>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Eastern Europe
+  - R12_AFR>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Former Soviet Union
+  - R12_AFR>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Latin America and the Caribbean
+  - R12_AFR>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Middle East and North Africa
+  - R12_AFR>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>North America
+  - R12_AFR>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Pacific OECD
+  - R12_AFR>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Other Pacific Asia
+  - R12_AFR>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>South Asia
+  - R12_AFR>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Sub-Saharan Africa>Western Europe
+  - R12_RCPA>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Sub-Saharan Africa
+  - R12_RCPA>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>China
+  - R12_RCPA>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Eastern Europe
+  - R12_RCPA>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Former Soviet Union
+  - R12_RCPA>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Latin America and the Caribbean
+  - R12_RCPA>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Middle East and North Africa
+  - R12_RCPA>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>North America
+  - R12_RCPA>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Pacific OECD
+  - R12_RCPA>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Other Pacific Asia
+  - R12_RCPA>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>South Asia
+  - R12_RCPA>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Rest of Centrally Planned Asia>Western Europe
+  - R12_CHN>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Sub-Saharan Africa
+  - R12_CHN>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Rest of Centrally Planned Asia
+  - R12_CHN>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Eastern Europe
+  - R12_CHN>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Former Soviet Union
+  - R12_CHN>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Latin America and the Caribbean
+  - R12_CHN>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Middle East and North Africa
+  - R12_CHN>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>North America
+  - R12_CHN>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Pacific OECD
+  - R12_CHN>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Other Pacific Asia
+  - R12_CHN>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>South Asia
+  - R12_CHN>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|China>Western Europe
+  - R12_EEU>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Sub-Saharan Africa
+  - R12_EEU>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Rest of Centrally Planned Asia
+  - R12_EEU>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>China
+  - R12_EEU>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Former Soviet Union
+  - R12_EEU>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Latin America and the Caribbean
+  - R12_EEU>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Middle East and North Africa
+  - R12_EEU>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>North America
+  - R12_EEU>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Pacific OECD
+  - R12_EEU>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Other Pacific Asia
+  - R12_EEU>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>South Asia
+  - R12_EEU>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Eastern Europe>Western Europe
+  - R12_FSU>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Sub-Saharan Africa
+  - R12_FSU>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Rest of Centrally Planned Asia
+  - R12_FSU>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>China
+  - R12_FSU>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Eastern Europe
+  - R12_FSU>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Latin America and the Caribbean
+  - R12_FSU>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Middle East and North Africa
+  - R12_FSU>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>North America
+  - R12_FSU>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Pacific OECD
+  - R12_FSU>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Other Pacific Asia
+  - R12_FSU>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>South Asia
+  - R12_FSU>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Former Soviet Union>Western Europe
+  - R12_LAM>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Sub-Saharan Africa
+  - R12_LAM>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Rest of Centrally Planned Asia
+  - R12_LAM>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>China
+  - R12_LAM>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Eastern Europe
+  - R12_LAM>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Former Soviet Union
+  - R12_LAM>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Middle East and North Africa
+  - R12_LAM>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>North America
+  - R12_LAM>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Pacific OECD
+  - R12_LAM>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Other Pacific Asia
+  - R12_LAM>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>South Asia
+  - R12_LAM>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Latin America and the Caribbean>Western Europe
+  - R12_MEA>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Sub-Saharan Africa
+  - R12_MEA>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Rest of Centrally Planned Asia
+  - R12_MEA>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>China
+  - R12_MEA>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Eastern Europe
+  - R12_MEA>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Former Soviet Union
+  - R12_MEA>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Latin America and the Caribbean
+  - R12_MEA>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>North America
+  - R12_MEA>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Pacific OECD
+  - R12_MEA>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Other Pacific Asia
+  - R12_MEA>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>South Asia
+  - R12_MEA>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Middle East and North Africa>Western Europe
+  - R12_NAM>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Sub-Saharan Africa
+  - R12_NAM>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Rest of Centrally Planned Asia
+  - R12_NAM>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>China
+  - R12_NAM>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Eastern Europe
+  - R12_NAM>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Former Soviet Union
+  - R12_NAM>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Latin America and the Caribbean
+  - R12_NAM>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Middle East and North Africa
+  - R12_NAM>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Pacific OECD
+  - R12_NAM>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Other Pacific Asia
+  - R12_NAM>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>South Asia
+  - R12_NAM>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|North America>Western Europe
+  - R12_PAO>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Sub-Saharan Africa
+  - R12_PAO>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Rest of Centrally Planned Asia
+  - R12_PAO>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>China
+  - R12_PAO>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Eastern Europe
+  - R12_PAO>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Former Soviet Union
+  - R12_PAO>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Latin America and the Caribbean
+  - R12_PAO>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Middle East and North Africa
+  - R12_PAO>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>North America
+  - R12_PAO>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Other Pacific Asia
+  - R12_PAO>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>South Asia
+  - R12_PAO>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Pacific OECD>Western Europe
+  - R12_PAS>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Sub-Saharan Africa
+  - R12_PAS>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Rest of Centrally Planned Asia
+  - R12_PAS>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>China
+  - R12_PAS>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Eastern Europe
+  - R12_PAS>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Former Soviet Union
+  - R12_PAS>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Latin America and the Caribbean
+  - R12_PAS>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Middle East and North Africa
+  - R12_PAS>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>North America
+  - R12_PAS>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Pacific OECD
+  - R12_PAS>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>South Asia
+  - R12_PAS>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Other Pacific Asia>Western Europe
+  - R12_SAS>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Sub-Saharan Africa
+  - R12_SAS>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Rest of Centrally Planned Asia
+  - R12_SAS>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>China
+  - R12_SAS>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Eastern Europe
+  - R12_SAS>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Former Soviet Union
+  - R12_SAS>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Latin America and the Caribbean
+  - R12_SAS>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Middle East and North Africa
+  - R12_SAS>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>North America
+  - R12_SAS>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Pacific OECD
+  - R12_SAS>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Other Pacific Asia
+  - R12_SAS>R12_WEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|South Asia>Western Europe
+  - R12_WEU>R12_AFR: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Sub-Saharan Africa
+  - R12_WEU>R12_RCPA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Rest of Centrally Planned Asia
+  - R12_WEU>R12_CHN: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>China
+  - R12_WEU>R12_EEU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Eastern Europe
+  - R12_WEU>R12_FSU: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Former Soviet Union
+  - R12_WEU>R12_LAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Latin America and the Caribbean
+  - R12_WEU>R12_MEA: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Middle East and North Africa
+  - R12_WEU>R12_NAM: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>North America
+  - R12_WEU>R12_PAO: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Pacific OECD
+  - R12_WEU>R12_PAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>Other Pacific Asia
+  - R12_WEU>R12_SAS: MESSAGEix-GLOBIOM-GAINS 2.1-R12|Western Europe>South Asia
+
+
+common_regions:
+  - World:
+      - R12_AFR
+      - R12_RCPA
+      - R12_CHN
+      - R12_EEU
+      - R12_FSU
+      - R12_LAM
+      - R12_MEA
+      - R12_NAM
+      - R12_PAO
+      - R12_PAS
+      - R12_SAS
+      - R12_WEU
+
+  # R5 regions
+  - Asia (R5):
+      - R12_SAS
+      - R12_PAS
+      - R12_RCPA
+      - R12_CHN
+  - Latin America (R5):
+      - R12_LAM
+  - Middle East & Africa (R5):
+      - R12_MEA
+      - R12_AFR
+  - OECD & EU (R5):
+      - R12_WEU
+      - R12_PAO
+      - R12_NAM
+      - R12_EEU
+  - Reforming Economies (R5):
+      - R12_FSU
+
+  # R10 regions
+  - Africa (R10):
+      - R12_AFR
+  - China+ (R10):
+      - R12_CHN
+      - R12_RCPA
+  - Europe (R10):
+      - R12_EEU
+      - R12_WEU
+  - India+ (R10):
+      - R12_SAS
+  - Latin America (R10):
+      - R12_LAM
+  - Middle East (R10):
+      - R12_MEA
+  - North America (R10):
+      - R12_NAM
+  - Pacific OECD (R10):
+      - R12_PAO
+  - Reforming Economies (R10):
+      - R12_FSU
+  - Rest of Asia (R10):
+      - R12_PAS
+  - China:
+      - R12_CHN
+  - European Union and United Kingdom:
+      - R12_EEU
+      - R12_WEU
+  - India:
+      - R12_SAS
+  - Japan:
+      - R12_PAO
+  - Russian Federation:
+      - R12_FSU
+  - United States:
+      - R12_NAM
+
