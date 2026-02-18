@@ -54,9 +54,12 @@ in the [definitions/scenario](definitions/scenario) in the following format:
 The **Project/Manuscript-Prefix** must be unique. It should include (a short version of) the project name and
 a manuscript-identifier if scenarios from multiple studies related to this project will be submitted.
 
-The **Model Name including Version Number** should include a version number using semantic versioning, e.g.: `China TIMES 2.0`.
+The **Model Name including Version Number** should include a version number using semantic versioning, e.g.: `China TIMES 2.0`.  
+If the model has a different regional resolution than one or several countries, please register the model
+in the [common-definitions](https://github.com/iamconsortium/common-definitions) repository following
+these [instructions](https://docs.ece.iiasa.ac.at/scenario-databases.html#model-registration).
 
-The **Project Name>** should include the funding agency if possible, e.g.: `ENGAGE [Horizon Europe]`.
+The **Project Name** attribute should include the funding agency if possible, e.g.: `ENGAGE [Horizon Europe]`.
 
 ## Funding acknowledgement
 
