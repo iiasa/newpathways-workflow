@@ -128,7 +128,7 @@
       Work Package: 5.1 (National Stocktake)
 
 # https://github.com/iiasa/newpathways-workflow/issues/33
-- CINEA-MACROECONOMICS-*:
+- CINEA-MEICT-*:
     model: [ GEM-E3 V2023 ]
     meta_indicators:
       Project: CINEA MACROECONOMICS [Horizon EU]
