@@ -161,5 +161,12 @@
     meta_indicators:
       Project: IAM COMPACT [Horizon EU]
       Scientific Reference (Citation): Frilingou and Nikas et al. 2025
+
+# https://github.com/iiasa/newpathways-workflow/issues/33
+- CINEA-MEICT-*:
+    model: [ GEM-E3 V2023 ]
+    meta_indicators:
+      Project: Macro-Economic Impact of the Climate Transition [CINEA]
+      Scientific Reference (Citation): unpublished
       Scientific Reference (DOI): n/a
       Work Package: 5.1 (National Stocktake)
