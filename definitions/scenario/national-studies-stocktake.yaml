@@ -128,31 +128,38 @@
       Work Package: 5.1 (National Stocktake)
 
 # https://github.com/iiasa/newpathways-workflow/issues/29
-- IAM-COMPACT-Study-1-*:
-    model: [ UNIGE-EXPANSE v1 ]
+- IAM-COMPACT-Regional-Inequalities-*:
+    model: [ EXPANSE-Europe v1.0 ]
     meta_indicators:
       Project: IAM COMPACT [Horizon EU]
       Scientific Reference (Citation): Sasse et al. 2023
       Scientific Reference (DOI): 10.1038/s41467-023-37946-3
       Work Package: 5.1 (National Stocktake)
-- IAM-COMPACT-Study-2-*:
-    model: [ UNIGE-EXPANSE v2 ]
+- IAM-COMPACT-Air-Pollution-*:
+    model: [ EXPANSE-Europe v1.0 ]
     meta_indicators:
       Project: IAM COMPACT [Horizon EU]
       Scientific Reference (Citation): Pehle et al. 2025
       Scientific Reference (DOI): 10.1007/s10584-024-03851-x
       Work Package: 5.1 (National Stocktake)
-- IAM-COMPACT-Study-3-*:
-    model: [ UNIGE-EXPANSE v3 ]
+- IAM-COMPACT-Employment-*:
+    model: [ EXPANSE-Europe v1.0 ]
     meta_indicators:
       Project: IAM COMPACT [Horizon EU]
-      Scientific Reference (Citation): Maguire et al. 2023
+      Scientific Reference (Citation): Maguire et al. 2025
       Scientific Reference (DOI): 110.21203/rs.3.rs-7232815/v1
       Work Package: 5.1 (National Stocktake)
-- IAM-COMPACT-Study-4-*:
-    model: [ UNIGE-EXPANSE v4 ]
+- IAM-COMPACT-NECP-*:
+    model: [ EXPANSE-Europe v1.0 ]
     meta_indicators:
       Project: IAM COMPACT [Horizon EU]
-      Scientific Reference (Citation): Frilingou et al. 2025
+      Scientific Reference (Citation): Frilingou and Nikas et al. 2025
+      Scientific Reference (DOI): n/a
+      Work Package: 5.1 (National Stocktake)
+- IAM-COMPACT-FF55-*:
+    model: [ EXPANSE-Europe v1.0 ]
+    meta_indicators:
+      Project: IAM COMPACT [Horizon EU]
+      Scientific Reference (Citation): Frilingou and Nikas et al. 2025
       Scientific Reference (DOI): n/a
       Work Package: 5.1 (National Stocktake)
