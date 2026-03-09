@@ -21,6 +21,11 @@ This repository contains the workflow and configuration for the EU project NEWPA
 > the definitions for this project are available for download as an xlsx spreadsheet
 > at [https://files.ece.iiasa.ac.at/newpathways/newpathways-template.xlsx](https://files.ece.iiasa.ac.at/newpathways/newpathways-template.xlsx).
 
+> [!IMPORTANT]
+> This workflow repository uses definitions and region mappings from the
+> [common-definitions](https://github.com/IAMconsortium/common-definitions) repository.  
+> Check out [nomenclature.yaml](nomenclature.yaml) for the specific configuration.
+
 ### Project nomenclature and model registration
 
 This projects uses the variables region definitions from the
