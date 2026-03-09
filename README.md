@@ -1,6 +1,6 @@
 # NEWPATHWAYS Scenario Processing Workflow
 
-Copyright 2025 IIASA and the NEWPATHWAYS consortium
+Copyright 2026 IIASA and the NEWPATHWAYS consortium
 
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
