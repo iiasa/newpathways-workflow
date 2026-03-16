@@ -16,11 +16,11 @@ definitions:
         - hierarchy: R5
         - hierarchy: R9
         - hierarchy: R10
-        - hierarchy: G20 Members
         - hierarchy: Regional Organizations
         - hierarchy: GCAM-KSA v2.0
         - hierarchy: GEM-E3 V2023
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
+    country: true
 mappings:
   repository:
     name: common-definitions
