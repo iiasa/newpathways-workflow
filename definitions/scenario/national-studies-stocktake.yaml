@@ -175,7 +175,7 @@
 - ENGAGE-China-*:
     model: [ China TIMES 2.0 ]
     meta_indicators:
-      Project: ENGAGE
+      Project: ENGAGE [Horizon 2020]
       Scientific Reference (Citation): Zhang et al. 2026
       Scientific Reference (DOI): 10.1038/s41467-026-71410-2
       Work Package: 5.1 (National Stocktake)
