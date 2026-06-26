@@ -1,0 +1,4 @@
+- Expenditure|Households|{Household Expenditure Group}:
+    description: Total expenditure by households for {Household Expenditure Group}
+    unit: billion USD_2010/yr
+    tier: 3
