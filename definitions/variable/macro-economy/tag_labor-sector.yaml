@@ -1,0 +1,23 @@
+- Labor Sector:
+    - Energy:
+        description: energy sector, including extraction, processing, transformation,
+          and distribution of energy carriers such as fossil fuels, biomass, and
+          renewable sources (e.g., solar, wind) (parts of ISIC Rev.4 - Sections B-D)
+    - Industry|Chemicals:
+        description: chemical manufacturing sector (ISIC Rev.4 - Division 20)
+    - Industry|Iron and Steel:
+        description: iron and steel manufacturing sector (ISIC Rev.4 - Division 24,
+          iron and steel subset)
+    - Industry|Non-Ferrous Metals:
+        description: non-ferrous metal manufacturing sector (ISIC Rev.4 - Division 24,
+          excluding iron and steel)
+    - Industry|Non-Metallic Minerals:
+        description: non-metallic mineral products manufacturing sector
+          (ISIC Rev.4 - Division 23)
+    - Industry|Pulp and Paper:
+        description: paper and pulp manufacturing sector (ISIC Rev.4 - Division 17)
+    - Industry|Other Sector:
+        description: remaining industrial activities not explicitly represented in other
+          subsectors (subset of ISIC Rev.4 Sections B–F excluding specified categories)
+    - Transportation:
+        description: transportation and storage sector (ISIC Rev.4 - Section H)

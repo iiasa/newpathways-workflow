@@ -1,0 +1,5 @@
+- Labor Force|Employed|{Labor Sector}:
+    description: Working-age inhabitants which are employed in the {Labor Sector}
+    unit: million
+    tier: 3
+    lower_bound: 0
