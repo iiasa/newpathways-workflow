@@ -1,0 +1,6 @@
+- Labor Force|Employed|{Economic Sectors Level 3}:
+    description: Working-age inhabitants which are employed in the
+      {Economic Sectors Level 3}
+    unit: million
+    tier: 3
+    lower_bound: 0
