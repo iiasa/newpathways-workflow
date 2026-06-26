@@ -1,0 +1,13 @@
+- Household Expenditure Group:
+    - Energy:
+        description: energy goods, including electricity, gas, liquid and solid fuels,
+          and other energy carriers
+    - Food:
+        description: food and non-alcoholic beverages, including processed and
+          unprocessed food products
+    - Services:
+        description: services, including housing, communication, health, education,
+          recreation, and other service-related activities excluding transport
+    - Other:
+        description: goods not explicitly represented in other categories, including
+          manufactured products and miscellaneous consumption items
