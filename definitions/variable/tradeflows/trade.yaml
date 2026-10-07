@@ -1,0 +1,4 @@
+- Trade|{Traded Energy} [Volume]:
+    description: Amount of {Traded Energy} that is exported (if 'region' is a region)
+      or traded (if 'region' is a connection `Region A>Region B`)
+    unit: EJ/yr

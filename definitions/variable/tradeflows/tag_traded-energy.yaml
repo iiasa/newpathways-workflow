@@ -1,0 +1,15 @@
+- Traded Energy:
+    - Primary Energy|Biomass:
+        description: solid biomass
+    - Primary Energy|Coal:
+        description: coal
+    - Primary Energy|Gas:
+        description: methane including natural (fossil) gas, biomethane and similar gaseous fuels
+    - Primary Energy|Oil:
+        description: crude oil
+    - Secondary Energy|Ethanol:
+        description: ethanol
+    - Secondary Energy|Fuel Oil:
+        description: fuel oil
+    - Secondary Energy|Light Oil:
+        description: light oil products
